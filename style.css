@@ -1,0 +1,182 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(20, 137, 196);
+    color: #000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(38, 73, 142);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+    justify-content:  center;
+    display: flex;
+  }
+  .logo-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .logout {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  #hero {
+    position: relative;
+    background-image: url(./images/adidas\ sepatu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center 50%;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+  }
+  
+  .overlay p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  #about {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #product {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .product h2 {
+    font-size: 28px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 100%;
+    /* max-width: 220px; */
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .product-card p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 26px;
+    text-align: right;
+  }
+  
+  .product-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px   16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: all ease 0.3s;
+  }
+
+  .product-card button:hover{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
